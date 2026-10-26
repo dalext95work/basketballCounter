@@ -1,0 +1,91 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 575px;
+}
+.scorename{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#home-point{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    color: #F94F6D;
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 15px auto 15px auto;
+}
+
+#guest-point{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    color: #F94F6D;
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 15px auto 15px auto;
+}
+.incnumber-home{
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.incnumber-guest{
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inc{
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.inc:active{
+    background:blue;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #1b244a;
+    height: 385px;
+}
+.newgame{
+    margin:auto;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+}
